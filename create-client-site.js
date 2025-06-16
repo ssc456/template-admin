@@ -119,7 +119,17 @@ async function createClientSite() {
     console.log('4. Deploying to Vercel...');
     try {
       process.chdir(siteId);
+      // First deploy to get the project set up
       await runCommand('vercel --yes');
+      
+      // Then add environment variables
+      console.log('Adding environment variables to Vercel...');
+      await runCommand(`vercel env add KV_REST_API_URL production < .env.local`);
+      await runCommand(`vercel env add KV_REST_API_TOKEN production < .env.local`);
+      
+      // Final production deployment with environment variables
+      console.log('Deploying with environment variables...');
+      await runCommand('vercel --prod');
     } catch (err) {
       console.error('Failed to deploy to Vercel:', err.message);
     }
