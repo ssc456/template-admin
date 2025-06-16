@@ -6,16 +6,16 @@
     "subheadline": "Keeping tails wagging across town since 2018",
     "ctaText": "Book a Walk",
     "ctaLink": "#contact"
-    },
+  },
   "about": {
-    "title": "About Scott's Dogs",
+    "title": "About Scott's Dogsss",
     "description": "I've always had a special connection with dogs and turned my passion into a profession. With over 5 years of experience, I provide personalized dog walking services that keep your furry friends happy, healthy, and exercised. Each walking session is tailored to your dog's energy level, age, and personality. Your pet's safety and wellbeing are my top priorities, and I treat every dog as if they were my own.",
     "image": "/images/dog1.jpg"
   },
   "services": {
     "title": "Our Services",
     "description": "Flexible dog walking options to suit your pet's needs and your schedule",
-    "layoutStyle": "interactive",
+    "layoutStyle": "simple",
     "items": [
       {
         "title": "Solo Walk",
@@ -81,15 +81,13 @@
         ]
       },
       {
-        "title": "Home Visit Service",
-        "description": "Quick visit to your home to feed, provide fresh water, and let your dog out.",
-        "iconName": "Home",
+        "title": "New Servicejhjhh",
+        "description": "Description of the new servicenbmn",
+        "iconName": "Star",
         "details": [
-          "15-minute home visit",
-          "Feeding and fresh water",
-          "Brief toilet break",
-          "Perfect for busy workdays",
-          "Price: £8 per visit"
+          "Detail 1",
+          "Detail 2",
+          "New detail"
         ]
       }
     ]

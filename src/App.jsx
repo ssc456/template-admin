@@ -1,4 +1,3 @@
-// src/App.jsx
 import { useEffect, useState } from 'react'
 import { AnimatePresence } from 'framer-motion'
 import Header from './components/Header'
@@ -16,25 +15,57 @@ function App() {
   const [content, setContent] = useState(null)
   const [config, setConfig] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [isPreview, setIsPreview] = useState(false)
 
   useEffect(() => {
-    Promise.all([fetch('/client.json').then(r => r.json())])
-      .then(([client, cfg]) => {
-        setContent(client)
-
-        if (client.config) {
-          setConfig(client.config)
+    // Check if we're in preview mode
+    const urlParams = new URLSearchParams(window.location.search)
+    const preview = urlParams.get('preview') === 'true'
+    setIsPreview(preview)
+    
+    if (preview) {
+      // Set up message listener for preview data
+      const handleMessage = (event) => {
+        if (event.data && event.data.type === 'UPDATE_CLIENT_DATA' && event.data.clientData) {
+          const { clientData } = event.data
+          setContent(clientData)
+          if (clientData.config) {
+            setConfig(clientData.config)
+          }
+          setLoading(false)
+          
+          if (clientData.siteTitle) {
+            document.title = clientData.siteTitle
+          }
         }
-        setLoading(false)
+      }
+      
+      window.addEventListener('message', handleMessage)
+      
+      // Notify parent that we're ready for data
+      if (window.parent) {
+        window.parent.postMessage({ type: 'PREVIEW_READY' }, '*')
+      }
+      
+      return () => window.removeEventListener('message', handleMessage)
+    } else {
+      // Normal loading from client.json
+      Promise.all([fetch('/client.json').then(r => r.json())])
+        .then(([client]) => {
+          setContent(client)
 
-        // Set the page title from client.json
-        if (client.siteTitle) {
-          document.title = client.siteTitle;
-        }
-      })
-      .catch(console.error)
+          if (client.config) {
+            setConfig(client.config)
+          }
+          setLoading(false)
 
-
+          // Set the page title from client.json
+          if (client.siteTitle) {
+            document.title = client.siteTitle
+          }
+        })
+        .catch(console.error)
+    }
   }, [])
 
   if (loading) {
@@ -66,6 +97,13 @@ function App() {
         {config.showContact && <ContactSection key='contact' {...content.contact} primaryColor={config.primaryColor} />}
       </AnimatePresence>
       <Footer social={content.social} primaryColor={config.primaryColor} siteTitle={content.siteTitle} />
+      
+      {/* Preview Mode Indicator */}
+      {isPreview && (
+        <div className="fixed bottom-4 right-4 bg-blue-600 text-white px-3 py-1 rounded-full text-sm shadow-lg">
+          Preview Mode
+        </div>
+      )}
     </div>
   )
 }

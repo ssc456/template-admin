@@ -125,7 +125,7 @@ function ServicesSection({
         <motion.div 
           className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8'
           variants={containerVariants}
-          initial="hidden"
+          initial="visible"  // Changed from "hidden" to "visible"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
         >
