@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "setup-site": "node setup-site.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -13,15 +14,21 @@
     "@heroicons/react": "^2.2.0",
     "@monaco-editor/react": "^4.7.0",
     "@studio-freight/lenis": "^1.0.42",
+    "@upstash/redis": "^1.35.0",
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.5.0",
     "framer-motion": "^12.17.0",
+    "fs-extra": "^11.3.0",
     "lucide-react": "^0.514.0",
+    "path": "^0.12.7",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-hot-toast": "^2.5.2",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.6.2",
     "react-tsparticles": "^2.12.2",
-    "tsparticles": "^3.8.1"
+    "tsparticles": "^3.8.1",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
