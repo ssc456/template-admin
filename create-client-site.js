@@ -119,15 +119,25 @@ async function createClientSite() {
     console.log('4. Deploying to Vercel...');
     try {
       process.chdir(siteId);
+      
       // First deploy to get the project set up
       await runCommand('vercel --yes');
       
-      // Then add environment variables
+      // Add environment variables directly with their values
       console.log('Adding environment variables to Vercel...');
-      await runCommand(`vercel env add KV_REST_API_URL production < .env.local`);
-      await runCommand(`vercel env add KV_REST_API_TOKEN production < .env.local`);
+      const redisUrl = process.env.KV_REST_API_URL;
+      const redisToken = process.env.KV_REST_API_TOKEN;
       
-      // Final production deployment with environment variables
+      if (!redisUrl || !redisToken) {
+        console.error('Redis environment variables not found!');
+        return;
+      }
+      
+      // Add environment variables with explicit values
+      await runCommand(`vercel env add KV_REST_API_URL=${redisUrl} --yes`);
+      await runCommand(`vercel env add KV_REST_API_TOKEN=${redisToken} --yes`);
+      
+      // Deploy to production with the new environment variables
       console.log('Deploying with environment variables...');
       await runCommand('vercel --prod');
     } catch (err) {
