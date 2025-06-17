@@ -133,11 +133,12 @@ async function createClientSite() {
         return;
       }
       
-      // Add environment variables with explicit values
-      await runCommand(`vercel env add KV_REST_API_URL=${redisUrl} --yes`);
-      await runCommand(`vercel env add KV_REST_API_TOKEN=${redisToken} --yes`);
+      // Use echo to provide input to Vercel env command
+      await runCommand(`echo ${redisUrl} | vercel env add KV_REST_API_URL production`);
+      await runCommand(`echo ${redisToken} | vercel env add KV_REST_API_TOKEN production`);
+      await runCommand(`echo ${siteId} | vercel env add VITE_SITE_ID production`);
       
-      // Deploy to production with the new environment variables
+      // Redeploy to production with the new environment variables
       console.log('Deploying with environment variables...');
       await runCommand('vercel --prod');
     } catch (err) {
