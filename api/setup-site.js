@@ -1,4 +1,4 @@
-import redis from '../src/utils/redis';
+import redis from './utils/redis';
 import bcrypt from 'bcryptjs';
 
 export default async function handler(req, res) {
