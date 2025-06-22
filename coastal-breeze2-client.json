@@ -1,0 +1,179 @@
+{
+  "siteTitle": "Coastal Breeze Spa",
+  "logoUrl": "https://example.com/logo.png",
+  "logoPrompt": "Create a professional, modern logo for Coastal Breeze Spa. Use calming tones of blue and green, incorporating elements of waves and tranquility. The design should be elegant and reflect a sense of wellness and relaxation, suitable for a high-end spa.",
+  "hero": {
+    "headline": "Experience Ultimate Relaxation by the Seaside",
+    "subheadline": "Indulge in rejuvenating treatments at Coastal Breeze Spa in Bournemouth.",
+    "ctaText": "Book Your Treatment",
+    "ctaLink": "#services"
+  },
+  "about": {
+    "title": "Welcome to Coastal Breeze Spa",
+    "description": "Nestled by the serene beaches of Bournemouth, Coastal Breeze Spa offers a unique blend of relaxation and luxury. Our expert therapists provide rejuvenating massages, invigorating facials, and soothing aromatherapy, all designed to bring you serenity and peace.",
+    "image": "https://example.com/about.jpg",
+    "imagePrompt": "Capture a professional, photorealistic image of a calming spa environment by the beach. Include massage tables, soft lighting, and ocean views, evoking a sense of peace and relaxation."
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Experience a wide range of treatments designed to rejuvenate your body and mind.",
+    "layoutStyle": "cards",
+    "items": [
+      {
+        "title": "Massage Therapy",
+        "description": "Relieve tension and improve circulation with our range of massage techniques.",
+        "iconName": "Heart",
+        "details": [
+          "Swedish Massage",
+          "Deep Tissue Massage",
+          "Hot Stone Massage"
+        ]
+      },
+      {
+        "title": "Facials",
+        "description": "Refresh your skin with our custom facial treatments, designed to nourish and revitalize.",
+        "iconName": "Smile",
+        "details": [
+          "Classic Facial",
+          "Anti-Aging Facial",
+          "Hydrating Facial"
+        ]
+      },
+      {
+        "title": "Body Wraps",
+        "description": "Detoxify and rejuvenate with our luxurious body wraps, using mineral-rich ingredients.",
+        "iconName": "Spa",
+        "details": [
+          "Seaweed Body Wrap",
+          "Mud Body Wrap",
+          "Clay Body Wrap"
+        ]
+      },
+      {
+        "title": "Aromatherapy",
+        "description": "Enhance your wellbeing with our aromatic treatments using essential oils.",
+        "iconName": "Anchor",
+        "details": [
+          "Relaxation Session",
+          "Energizing Session",
+          "Balancing Session"
+        ]
+      }
+    ]
+  },
+  "features": {
+    "title": "Why Choose Us?",
+    "items": [
+      {
+        "iconName": "Star",
+        "title": "Experienced Therapists",
+        "description": "Our skilled therapists are trained to provide exceptional service tailored to your needs."
+      },
+      {
+        "iconName": "MapPin",
+        "title": "Scenic Location",
+        "description": "Enjoy our treatments in a tranquil beachfront setting, perfect for unwinding."
+      },
+      {
+        "iconName": "Clock",
+        "title": "Flexible Appointments",
+        "description": "We offer flexible scheduling options to fit your busy lifestyle."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Our Gallery",
+    "subtitle": "A glimpse into the tranquil world of Coastal Breeze Spa",
+    "layout": "masonry",
+    "maxImages": 6,
+    "viewAllLink": "#gallery",
+    "images": [
+      {
+        "src": "https://example.com/gallery1.jpg",
+        "alt": "Massage room with ocean view",
+        "title": "Relaxing Massage Room",
+        "description": "A serene space with ocean views, perfect for unwinding.",
+        "imagePrompt": "Photorealistic image of a massage room overlooking the ocean, with soft lighting and calming decor."
+      },
+      {
+        "src": "https://example.com/gallery2.jpg",
+        "alt": "Spa facial treatment",
+        "title": "Luxurious Facial Treatment",
+        "description": "Our facials leave you refreshed and revitalized.",
+        "imagePrompt": "High-resolution image of a professional facial treatment in a tranquil spa setting."
+      },
+      {
+        "src": "https://example.com/gallery3.jpg",
+        "alt": "Body wrap session",
+        "title": "Invigorating Body Wraps",
+        "description": "Detoxify and renew with our body wrap treatments.",
+        "imagePrompt": "Capture a professional, detailed image of a body wrap session in a soothing spa environment."
+      },
+      {
+        "src": "https://example.com/gallery4.jpg",
+        "alt": "Aromatherapy candles",
+        "title": "Aromatherapy Ambiance",
+        "description": "Enhance your senses with our aromatic practices.",
+        "imagePrompt": "Create a photorealistic image of aromatherapy candles and essential oils in a calming setting."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "quotes": [
+      {
+        "name": "Jessica T.",
+        "quote": "I felt completely rejuvenated after my visit to Coastal Breeze Spa. Their service is unmatched!",
+        "image": "https://example.com/testimonial1.jpg"
+      },
+      {
+        "name": "David L.",
+        "quote": "The location is beautiful and the treatments were exactly what I needed. Highly recommended!",
+        "image": "https://example.com/testimonial2.jpg"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Do I need to book an appointment?",
+        "answer": "Yes, we recommend booking in advance to ensure availability."
+      },
+      {
+        "question": "What should I wear to the spa?",
+        "answer": "Comfortable attire is recommended. Robes and slippers are provided during treatments."
+      },
+      {
+        "question": "Can I customize my treatment?",
+        "answer": "Absolutely! Our therapists are happy to tailor treatments to fit your needs."
+      }
+    ]
+  },
+  "social": {
+    "facebook": "https://facebook.com/coastalbreezespa",
+    "instagram": "https://instagram.com/coastalbreezespa",
+    "twitter": "",
+    "linkedin": "",
+    "youtube": "",
+    "tiktok": ""
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "We look forward to welcoming you to our tranquil spa. Reach out to schedule your next appointment or if you have any questions.",
+    "email": "info@coastalbreezespa.com",
+    "phone": "+44 1234 567890",
+    "address": "123 Seaside Lane, Bournemouth, UK"
+  },
+  "config": {
+    "primaryColor": "blue",
+    "showHero": true,
+    "showAbout": true,
+    "showServices": true,
+    "showFeatures": true,
+    "showTestimonials": true,
+    "showGallery": true,
+    "showContact": true,
+    "showFAQ": true
+  }
+}

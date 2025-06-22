@@ -1,0 +1,189 @@
+{
+  "siteTitle": "Coastal Breeze Spa",
+  "logoUrl": "/images/logo.png",
+  "hero": {
+    "headline": "Experience Tranquility by the Sea",
+    "subheadline": "Indulge in luxurious relaxation treatments at Coastal Breeze Spa",
+    "ctaText": "Book Your Escape",
+    "ctaLink": "/book-now"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Nestled on the beautiful Bournemouth coastline, Coastal Breeze Spa offers serene relaxation treatments designed to rejuvenate your mind, body, and spirit. Our skilled therapists use soothing techniques and natural products to provide a holistic experience for every guest.",
+    "image": "/images/about.jpg"
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Explore a range of services that cater to your wellness needs.",
+    "layoutStyle": "cards",
+    "items": [
+      {
+        "title": "Massage Therapy",
+        "description": "Relieve stress and tension with our signature massages.",
+        "iconName": "Heart",
+        "details": [
+          "Swedish Massage",
+          "Deep Tissue Massage",
+          "Hot Stone Massage"
+        ]
+      },
+      {
+        "title": "Facials",
+        "description": "Revitalize your skin with our nourishing facials.",
+        "iconName": "Droplet",
+        "details": [
+          "Hydrating Facial",
+          "Anti-Aging Facial",
+          "Brightening Facial"
+        ]
+      },
+      {
+        "title": "Body Wraps",
+        "description": "Detoxify and rejuvenate with our body wraps.",
+        "iconName": "Layers",
+        "details": [
+          "Seaweed Wrap",
+          "Mud Wrap",
+          "Herbal Wrap"
+        ]
+      },
+      {
+        "title": "Aromatherapy",
+        "description": "Soothe your senses with essential oils.",
+        "iconName": "Wind",
+        "details": [
+          "Relaxation",
+          "Energizing",
+          "Balancing"
+        ]
+      }
+    ]
+  },
+  "features": {
+    "title": "Why Choose Us",
+    "items": [
+      {
+        "iconName": "Star",
+        "title": "Expert Therapists",
+        "description": "Our therapists are highly trained and experienced in providing exceptional care."
+      },
+      {
+        "iconName": "Leaf",
+        "title": "Natural Products",
+        "description": "We use only the highest quality natural products in all our treatments."
+      },
+      {
+        "iconName": "Sun",
+        "title": "Seaside Ambiance",
+        "description": "Enjoy the calming sound of waves as you unwind at our coastal spa."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Our Gallery",
+    "subtitle": "A glimpse into our serene space",
+    "layout": "masonry",
+    "maxImages": 6,
+    "viewAllLink": "/gallery",
+    "images": [
+      {
+        "src": "/images/gallery/image1.jpg",
+        "alt": "Massage room with candle light",
+        "title": "Tranquil Massage Room",
+        "description": "Experience peace in our candle-lit massage rooms."
+      },
+      {
+        "src": "/images/gallery/image2.jpg",
+        "alt": "Spa reception area",
+        "title": "Welcome Area",
+        "description": "Begin your journey in our welcoming reception area."
+      },
+      {
+        "src": "/images/gallery/image3.jpg",
+        "alt": "Facial treatment",
+        "title": "Rejuvenating Facials",
+        "description": "Indulge in personalized facial treatments."
+      },
+      {
+        "src": "/images/gallery/image4.jpg",
+        "alt": "Aromatherapy oils",
+        "title": "Aromatherapy",
+        "description": "Our selection of calming essential oils."
+      },
+      {
+        "src": "/images/gallery/image5.jpg",
+        "alt": "Seaside view",
+        "title": "Seaside View",
+        "description": "Relax with stunning views of Bournemouth's coastline."
+      },
+      {
+        "src": "/images/gallery/image6.jpg",
+        "alt": "Body wrap treatment",
+        "title": "Body Treatments",
+        "description": "Detoxify with our luxurious body wraps."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "quotes": [
+      {
+        "name": "Emily R.",
+        "quote": "An absolutely amazing experience! The massage was just perfect, and the views are stunning!",
+        "image": "/images/client1.jpg"
+      },
+      {
+        "name": "Mark T.",
+        "quote": "The best spa in Bournemouth! Wonderful staff and the aromatherapy session was incredibly soothing.",
+        "image": "/images/client2.jpg"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What should I expect on my first visit?",
+        "answer": "You'll be welcomed by our friendly staff, given a brief tour, and your therapist will guide you through your chosen treatments."
+      },
+      {
+        "question": "What should I wear?",
+        "answer": "We provide all necessary attire for your comfort, including robes and slippers."
+      },
+      {
+        "question": "Do I need to book in advance?",
+        "answer": "Yes, we recommend booking in advance to ensure availability."
+      },
+      {
+        "question": "Are your products natural?",
+        "answer": "Yes, we use only high-quality, natural products for all treatments."
+      }
+    ]
+  },
+  "social": {
+    "facebook": "https://facebook.com/coastalbreezespa",
+    "instagram": "https://instagram.com/coastalbreezespa",
+    "twitter": "https://twitter.com/coastalbreezespa",
+    "linkedin": "",
+    "youtube": "",
+    "tiktok": ""
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "We'd love to hear from you! Contact us today to book your appointment or for any inquiries.",
+    "email": "info@coastalbreezespa.co.uk",
+    "phone": "+44 01234 567890",
+    "address": "123 Seaside Avenue, Bournemouth, UK"
+  },
+  "config": {
+    "primaryColor": "blue",
+    "showHero": true,
+    "showAbout": true,
+    "showServices": true,
+    "showFeatures": true,
+    "showTestimonials": true,
+    "showGallery": true,
+    "showContact": true,
+    "showFAQ": true
+  }
+}

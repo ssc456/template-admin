@@ -1,0 +1,191 @@
+{
+  "siteTitle": "Entry Nets",
+  "logoUrl": "https://randomuser.me/api/portraits/thumb/men/1.jpg",
+  "logoPrompt": "Design a sleek, modern logo featuring a stylized 'E' and 'N' with blue gradients, symbolizing digital connectivity. Incorporate elements of a web globe or network lines to reflect online presence. Use a professional sans-serif font.",
+  "hero": {
+    "headline": "Your First Step Online — Made Easy",
+    "subheadline": "Launch Your Business Website Hassle-Free",
+    "ctaText": "Get Started Today",
+    "ctaLink": "/contact"
+  },
+  "about": {
+    "title": "About Entry Nets",
+    "description": "Entry Nets is your hassle-free launchpad for getting your business online. We build beautiful, modern websites tailored to new businesses needing a quick, affordable, and professional start. With our all-inclusive standard package, you'll have a fully mobile-responsive website live within days, complete with domain registration, hosting, and an easy-to-use admin portal for content updates. Focus on your business, and let us handle the tech.",
+    "image": "https://randomuser.me/api/portraits/thumb/men/2.jpg",
+    "imagePrompt": "Design an inviting office space with tech gadgets like laptops and large monitors displaying website designs, embodying a tech-savvy and modern work environment."
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "At Entry Nets, we offer a variety of services to cater to your online business needs. From standard packages to custom solutions, we've got you covered.",
+    "layoutStyle": "cards",
+    "items": [
+      {
+        "title": "Standard Package",
+        "description": "A complete solution with a mobile-responsive website, free domain, and hosting for £250/year or £25/month. Get your website live within days!",
+        "iconName": "Globe",
+        "details": [
+          "Free domain name registration or transfer",
+          "Hosting included — no hidden fees",
+          "Admin portal for content updates",
+          "Designed and live within days"
+        ]
+      },
+      {
+        "title": "Custom Designs",
+        "description": "Want something unique? We offer custom-tailored designs to match your brand identity and business needs.",
+        "iconName": "Layout",
+        "details": [
+          "Tailor-made website designs",
+          "Brand identity alignment",
+          "Unlimited design revisions"
+        ]
+      },
+      {
+        "title": "Additional Features",
+        "description": "Enhance your website with contact forms, booking integrations, galleries, and more. We provide SSL certificates and performance optimizations.",
+        "iconName": "Inbox",
+        "details": [
+          "Contact forms",
+          "Booking integrations",
+          "Gallery setups",
+          "SSL certificate included"
+        ]
+      },
+      {
+        "title": "Analytics Setup",
+        "description": "Track your website's visits and growth with analytics setup. Gain insights to optimize your online strategy.",
+        "iconName": "PieChart",
+        "details": [
+          "Visitor tracking",
+          "Growth analytics",
+          "Insight reporting"
+        ]
+      }
+    ]
+  },
+  "features": {
+    "title": "Why Choose Entry Nets",
+    "items": [
+      {
+        "iconName": "ShieldCheck",
+        "title": "Security",
+        "description": "SSL certificates and robust security measures ensure your site stays secure."
+      },
+      {
+        "iconName": "Clock",
+        "title": "Fast Setup",
+        "description": "Get online quickly with our efficient processes and dedication to speed."
+      },
+      {
+        "iconName": "Heart",
+        "title": "Dedicated Support",
+        "description": "Our team is here to support you through every step of your digital journey."
+      },
+      {
+        "iconName": "Zap",
+        "title": "Performance",
+        "description": "Optimized for performance, your site will load quickly and run smoothly."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Our Work",
+    "subtitle": "Explore Our Portfolio",
+    "layout": "grid",
+    "maxImages": 6,
+    "viewAllLink": "/gallery",
+    "images": [
+      {
+        "src": "https://randomuser.me/api/portraits/thumb/women/3.jpg",
+        "alt": "Modern business website example",
+        "title": "Tech Startup",
+        "description": "A sleek, responsive design for a technology startup.",
+        "imagePrompt": "Create a stunning, modern business website example with soft blue tones and sleek typography. It should appear user-friendly and highly professional."
+      },
+      {
+        "src": "https://randomuser.me/api/portraits/thumb/men/4.jpg",
+        "alt": "E-commerce site design",
+        "title": "E-commerce Platform",
+        "description": "A vibrant, user-focused e-commerce website design.",
+        "imagePrompt": "Render a colorful, interactive e-commerce site with product displays and shopping cart icons. The design should convey excitement and ease of use."
+      },
+      {
+        "src": "https://randomuser.me/api/portraits/thumb/women/5.jpg",
+        "alt": "Portfolio website design",
+        "title": "Creative Portfolio",
+        "description": "An elegant portfolio website for showcasing creative work.",
+        "imagePrompt": "Illustrate an elegant portfolio website layout, using minimalist aesthetic and artful imagery to present creative work."
+      },
+      {
+        "src": "https://randomuser.me/api/portraits/thumb/men/6.jpg",
+        "alt": "Corporate website example",
+        "title": "Corporate Solutions",
+        "description": "Professional corporate website design emphasizing reliability.",
+        "imagePrompt": "Draw a professional corporate website featuring a clean, structured layout with sophisticated blue colors and a strong emphasis on brand trust."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "quotes": [
+      {
+        "name": "John Doe",
+        "quote": "Entry Nets transformed our online presence swiftly and efficiently. We love the outcome!",
+        "image": "https://randomuser.me/api/portraits/men/7.jpg"
+      },
+      {
+        "name": "Jane Smith",
+        "quote": "Amazing service! Fast, friendly, and exactly what we needed for our startup.",
+        "image": "https://randomuser.me/api/portraits/women/8.jpg"
+      },
+      {
+        "name": "Michael Johnson",
+        "quote": "Our website is not just functional but beautifully reflects our brand thanks to Entry Nets.",
+        "image": "https://randomuser.me/api/portraits/men/9.jpg"
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQs",
+    "items": [
+      {
+        "question": "What does the standard package include?",
+        "answer": "The standard package includes a complete, mobile-responsive website, free domain registration, hosting, and a portal to update your content."
+      },
+      {
+        "question": "How quickly can I get my website live?",
+        "answer": "We aim to have your site designed and live within days, providing you with a fast and efficient service."
+      },
+      {
+        "question": "Can I request custom designs?",
+        "answer": "Absolutely! We offer custom-tailored designs to match your specific brand needs and preferences."
+      }
+    ]
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "twitter": "",
+    "linkedin": "",
+    "youtube": "",
+    "tiktok": ""
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Ready to get your business online? Reach out to us and let's make it happen.",
+    "email": "contact@entrynets.com",
+    "phone": "+44 1234 567890",
+    "address": "123 Business Lane, Web City, UK"
+  },
+  "config": {
+    "primaryColor": "blue",
+    "showHero": true,
+    "showAbout": true,
+    "showServices": true,
+    "showFeatures": true,
+    "showTestimonials": true,
+    "showGallery": true,
+    "showContact": true,
+    "showFAQ": true
+  }
+}

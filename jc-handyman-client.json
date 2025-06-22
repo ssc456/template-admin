@@ -1,0 +1,176 @@
+{
+  "siteTitle": "JC Handyman Specialist",
+  "logoUrl": "https://via.placeholder.com/150",
+  "logoPrompt": "Design a modern logo for JC Handyman Specialist featuring a hammer and wrench crossed over a shield, in blue tones. Include the business name in bold, professional font. Add subtle elements of repair work for a local handyman theme.",
+  "hero": {
+    "headline": "Your Local Handyman with a Twist",
+    "subheadline": "Serving Bedfordshire with precision and care. Why replace when you can REPAIR!",
+    "ctaText": "Get a Free Quote",
+    "ctaLink": "#contact"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "At JC Handyman Specialist, we pride ourselves on delivering personalized handyman services across Bedfordshire. Our expert team is dedicated to handling all your home repair needs with a unique twist. Whether it’s repairing UPVC windows or creatively respraying front doors, we offer solutions that save you time and money. Trust us for reliable, local tradesmen who listen to your needs and exceed your expectations.",
+    "image": "https://via.placeholder.com/600x400",
+    "imagePrompt": "A friendly handyman standing next to a neatly organized toolbench, smiling confidently. The setting is a well-lit workshop with various tools and repair materials neatly arranged."
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Explore a wide range of handyman services tailored for homeowners in Bedfordshire. From specialized home repairs to everyday fix-ups, we bring expertise and care to every project.",
+    "layoutStyle": "cards",
+    "items": [
+      {
+        "title": "Specialist Repairs",
+        "description": "Expert assistance for your home repair needs, including UPVC windows, bath and shower trays, and more.",
+        "iconName": "ShieldCheck",
+        "details": [
+          "UPVC Windows and Doors",
+          "Bath and Shower Trays",
+          "Brick Repairs and Tinting",
+          "Stone Cills",
+          "Front Door Respraying"
+        ]
+      },
+      {
+        "title": "Handyman Jobs",
+        "description": "General handyman services perfect for minor repairs and house maintenance.",
+        "iconName": "Tool",
+        "details": [
+          "Small Painting Jobs",
+          "TV Brackets",
+          "Shelving",
+          "Gutter and Window Cleaning",
+          "Grass Cutting"
+        ]
+      },
+      {
+        "title": "End of Tenancy Repairs",
+        "description": "Quick and efficient repairs to restore your property before a new tenant arrives.",
+        "iconName": "Star",
+        "details": [
+          "Wall Patch-ups",
+          "Fixture repairs",
+          "Cleaning and Maintenance Services"
+        ]
+      }
+    ]
+  },
+  "features": {
+    "title": "Why Choose Us?",
+    "items": [
+      {
+        "iconName": "Hand",
+        "title": "Local Expertise",
+        "description": "Our team consists of skilled tradesmen who understand the unique needs of Bedfordshire residents."
+      },
+      {
+        "iconName": "Smile",
+        "title": "Customer Satisfaction",
+        "description": "We are committed to providing an exceptional customer experience with every service call."
+      },
+      {
+        "iconName": "Heart",
+        "title": "Value for Money",
+        "description": "Offering cost-effective solutions that emphasize repair over replacement, saving you time and money."
+      },
+      {
+        "iconName": "Clock",
+        "title": "Prompt Service",
+        "description": "We respect your time by offering quick response and efficient repairs for your convenience."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Our Work",
+    "subtitle": "Take a look at some of our recent projects and see the quality we deliver.",
+    "layout": "masonry",
+    "maxImages": 6,
+    "viewAllLink": "#",
+    "images": [
+      {
+        "src": "https://via.placeholder.com/300",
+        "alt": "UPVC window repair",
+        "title": "UPVC Window Repair",
+        "description": "Restoring durability and functionality to your windows.",
+        "imagePrompt": "A handyman working on a UPVC window in a bright sunny room, with tools laid out neatly. The window shows a clear view of a colorful garden."
+      },
+      {
+        "src": "https://via.placeholder.com/300",
+        "alt": "Shower tray fix",
+        "title": "Shower Tray Fix",
+        "description": "Completed repair on a bespoke shower tray before and after.",
+        "imagePrompt": "A sparkling clean bathroom showcasing a repaired shower tray, with shining tiles and reflections of light, emphasizing cleanliness and precision work."
+      },
+      {
+        "src": "https://via.placeholder.com/300",
+        "alt": "Stone cill restoration",
+        "title": "Stone Cill Restoration",
+        "description": "Bringing elegance back to your home’s stone features.",
+        "imagePrompt": "A close-up of a restored stone cill on a classic brick house, highlighting the texture and color restoration, under a clear blue sky."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "quotes": [
+      {
+        "name": "John Doe",
+        "quote": "Excellent service! Friendly, prompt, and professional. They fixed my shower tray quickly and efficiently.",
+        "image": "https://randomuser.me/api/portraits/men/10.jpg"
+      },
+      {
+        "name": "Jane Smith",
+        "quote": "Affordable and reliable, JC Handyman Specialist handled all our end of tenancy repairs beautifully.",
+        "image": "https://randomuser.me/api/portraits/women/5.jpg"
+      },
+      {
+        "name": "Tom Brown",
+        "quote": "I highly recommend JC Handyman for any repair work. Their attention to detail is unmatched!",
+        "image": "https://randomuser.me/api/portraits/men/20.jpg"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What areas do you serve?",
+        "answer": "We proudly serve the entire Bedfordshire region, offering personalized service to all local residents."
+      },
+      {
+        "question": "Do you provide emergency repairs?",
+        "answer": "Yes, we offer emergency repair services to ensure your home is safe and functional as quickly as possible."
+      },
+      {
+        "question": "Can you handle custom repair requests?",
+        "answer": "Absolutely! We love working on custom repairs that require a creative touch and expert skill."
+      }
+    ]
+  },
+  "social": {
+    "facebook": "https://facebook.com/jchandymanspecialist",
+    "instagram": "",
+    "twitter": "",
+    "linkedin": "",
+    "youtube": "",
+    "tiktok": ""
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Contact us today to discuss your repair needs or schedule a service. Our team is ready to assist you.",
+    "email": "info@jchandyman.com",
+    "phone": "01234 567890",
+    "address": "123 Bedford Rd, Bedfordshire, UK"
+  },
+  "config": {
+    "primaryColor": "blue",
+    "showHero": true,
+    "showAbout": true,
+    "showServices": true,
+    "showFeatures": true,
+    "showTestimonials": true,
+    "showGallery": true,
+    "showContact": true,
+    "showFAQ": true
+  }
+}
